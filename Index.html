@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/Style.css">
 </head>
 <body>
-    <input id="search"></input>
-    <button id="btn">Search</button>
+    <header class="row justify-content-center">Weather Dashboard</header>
+   <div> <h2>Search for a City:</h2><input id="search"></input>
+    <button id="btn">Search</button> </div>
+<div class="card" style="width: 14rem";>
+    <span>Current Weather</span>
+    <div id="searched-city"></div>
+    <img id="weather-icon">
+    <div>Temperature <span id="temperature"></span></div>
+    <div>Humidity <span id="humidity"></span></div>
+    <div>windspeed <span id="windspeed"></span></div>
+</div>
+    <div>
+        5-Day Forecast
+    </div>
  <script src="./Assets/script.js"></script>   
 </body>
 </html>
